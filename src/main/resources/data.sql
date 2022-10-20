@@ -1,0 +1,2 @@
+insert into user (name, email,las_name, login) values ("Cristopher","email@email.com","Araujo","cris");
+insert into user (name, email,las_name, login) values ("Ana Caroline","ana@caroline.com","Nunes","ana");
