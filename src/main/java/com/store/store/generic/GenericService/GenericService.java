@@ -1,4 +1,4 @@
-package com.store.store.generic.service;
+package com.store.store.generic.GenericService;
 
 import java.util.List;
 import java.util.Optional;

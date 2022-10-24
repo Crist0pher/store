@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.store.store.generic.controller.GenericController;
+import com.store.store.generic.GenericController.GenericController;
 import com.store.store.user.entities.User;
 import com.store.store.user.repository.UserRepository;
 import com.store.store.user.service.UserService;

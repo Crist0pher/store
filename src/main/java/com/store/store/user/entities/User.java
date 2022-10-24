@@ -2,16 +2,12 @@ package com.store.store.user.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+
+import com.store.store.generic.GenericModel.GenericModel;
 
 @Entity
-public class User {
+public class User extends GenericModel<Long>{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     @Column(unique = true)
     private String login;
@@ -39,13 +35,7 @@ public class User {
         this.email = email;
     }
 
-    public Long getId() {
-        return id;
-    }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getLogin() {
         return login;

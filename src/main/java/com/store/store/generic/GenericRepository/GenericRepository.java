@@ -1,15 +1,11 @@
 package com.store.store.generic.GenericRepository;
 
-import java.util.List;
-import java.util.Optional;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface GenericRepository <T,ID>{
+public interface GenericRepository<T, ID> extends JpaRepository<T,ID>{
 
-    Optional<T> findById(ID id);
 
-    T save(T entity);
 
-    List<T> findAll();
 
     
 }
